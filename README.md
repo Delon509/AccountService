@@ -14,10 +14,11 @@ Resource folder contains
 
 account folder contains the main code
   1. main
-    - AccountServiceApplication
+  - AccountServiceApplication
   2. controller 
-  - signUpController
-  - AuthenticatedUsersController
+  - signUpController  <-  because of poor planning, controller  contain all the service part of code. ( For reader, most of the code in signUpController should put
+  into other file called signUpService. Controller only call the function from Service)
+  - AuthenticatedUsersController <- same as signupController
   3. repos
   - UserRepository
   - paymentsRepository
