@@ -8,7 +8,7 @@ Tech : Spring Security + Spring JPA + MySQL
 ## Description of each file 
 Build (gradle)
 
-esource folder contains
+resource folder contains
   1. properties 
   2. keystore for https (demos purpose)
 
